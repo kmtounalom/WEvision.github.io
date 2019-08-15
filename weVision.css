@@ -1,0 +1,82 @@
+h1 {
+  font-family: "Georgia", Times, serif;
+  color:black;
+  text-shadow:2px 2px #CCC5C4;
+  margin-bottom: 0px;
+  background-color: lavender;
+}
+
+p {
+  font-family: "Palatino", Times, serif;
+  color: gray;
+}
+
+.logo1{
+  display:block;
+  margin: 10px auto 20px;
+}
+
+.center {
+  display: block;
+  /* object-fit: contain; */
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 5px; */
+}
+
+nav {
+    background: #444;
+    width: 100%;
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+    nav ul li:hover {
+        background: #F5C5DD;
+    }
+
+nav ul li a {
+    color: #3A3C3E;
+    text-decoration: none;
+    padding: 12px;
+}
+
+    nav ul li a:hover {
+        text-decoration: none;
+    }
+
+nav ul li.parent ul.child {
+    display: none;
+}
+
+nav ul li.parent:hover ul.child {
+    display: block;
+    position: absolute;
+    top: 40px;
+    background: #F5C5DD;
+}
+
+nav ul li.parent ul.child li {
+    width: 9em;
+    padding: 0;
+}
+
+nav ul li.parent ul.child li:hover {
+    background: #F5C5DD;
+}
+
+nav ul li.parent ul.child li a {
+    display: block;
+}
