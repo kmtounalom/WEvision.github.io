@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Career Quiz</title>
+    <link rel ="stylesheet" href="quiz.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <nav>
+<ul>
+  <li><a href="WEvision.html">Home</a></li>
+  <!-- role Models -->
+        <li class="parent"><a href="gwcFinalproject role models.html">Role Models</a>
+            <ul class="child">
+                <li><a href="weMedia.html">Media</a></li>
+                <li><a href="weWorldleaders.html">World leaders</a></li>
+                <li><a href="weActivist.html">Activists</a></li>
+                <li><a href="weMedicine.html">Medicine</a></li>
+                <li><a href="weAthletic.html">Athletics</a></li>
+                <li><a href="weTechnology.html">Technology</a></li>
+            </ul>
+        </li>
+   <li><a href="quiz.html">Quiz</a></li>
+   <li><a href="gwcFinalproject what YOU can do.html">what YOU can do</a></li>
+   <li><a href="gwcFinalproject Books and Music.html">Books and Music</a></li>
+</ul>
+</nav>
+
+  <body>
+    <h1>Career Quiz</h1>
+
+
+    <form id=careerQuiz>
+      <h2>What career could you have? Get inspired here!</h2>
+      <img src="mystery.png"
+      alt= "Career Icon"
+      class="center">
+      </img>
+      <hr>
+      </hr>
+      <h3>What extracurricular activity would you most likely be doing?</h3>
+      <input type="radio" name="extracurricular" value= "sofEn"> Robotics Team.<br>
+      <input type="radio" name="extracurricular" value= "law"> Mock Trial.<br>
+      <input type="radio" name="extracurricular" value= "doc"> Volunteering at a local hospital.<br>
+      <input type="radio" name="extracurricular" value= "proSpo"> Practicing a sport.<br>
+
+      <h3>How would you describe yourself in one word?</h3>
+      <input type="radio" name="word" value= "law"> Quick-Thinking.<br>
+      <input type="radio" name="word" value= "sofEn"> Problem-solver.<br>
+      <input type="radio" name="word" value= "proSpo"> Competitive.<br>
+      <input type="radio" name="word" value= "doc"> Compassionate.<br>
+
+      <h3>If you were in a group project, who would you be?</h3>
+      <input type="radio" name="proj" value= "doc"> The one constantly checking in and communicating with everyone.<br>
+      <input type="radio" name="proj" value= "proSpo"> The one preoccupied with balancing their work load with their sports practices.<br>
+      <input type="radio" name="proj" value= "sofEn"> The one doing a lot of the work behind the scenes.<br>
+      <input type="radio" name="proj" value= "law"> The one who presents in front of the class.<br>
+
+       <h3>What is your ideal weekend?</h3>
+      <input type="radio" name="weekend" value= "proSpo"> Winning sports tournaments.<br>
+      <input type="radio" name="weekend" value= "doc"> Binge watching any doctor tv show.<br>
+      <input type="radio" name="weekend" value= "sofEn"> Earbuds in, lights off, in your room playing video games.<br>
+      <input type="radio" name="weekend" value= "law"> Debating about the newest gossip with my friends.<br>
+
+      <h3>Are you most likely to:</h3>
+      <input type="radio" name="mostLikely" value= "doc"> Be CPR certified.<br>
+      <input type="radio" name="mostLikely" value= "sofEn"> Solve a rubix cube.<br>
+      <input type="radio" name="mostLikely" value= "law"> Have the best comebacks.<br>
+      <input type="radio" name="mostLikely" value= "proSpo"> Be the fastest kid in PE.<br>
+
+      <input type="submit" value="submit">
+    </form>
+
+<!--Results-->
+    <div class="result" id="sofEn">
+      <h2>You have the qualities of a Software Engineer!</h2>
+      <img src="computer.png"
+      alt= "Comupter Icon";
+      height="300";>
+      </img>
+      <h2>You are a logical thinker and rise to any challenge that may come your way. You might not be the center of attention but you know at heart your worth. You are constantly learning whether it be academic or just a hobby.</h2>
+      <hr>
+      </hr>
+      <p>Do not feel like this career is the right fit? Do not worry! This quiz is just for a matter of inspiration. You are a multifaceted human with so much potential so it totally makes sense if you do not feel completely certain. Feel free to take the quiz again or read about some role models for more inspiration.</p>
+    </div>
+
+    <div class="result" id="law">
+      <h2>You have the qualities of a Lawyer!</h2>
+      <img src="law.png"
+      alt= "law icon";
+      height="300";>
+      </img>
+      <h2>You bright, sharp, and quick on your feet. Not to mention, speaking in front of crowds does not faze you. You are always analyzing the world around you and have keen judgement of situations.</h2>
+      <hr>
+      </hr>
+      <p>Do not feel like this career is the right fit? Do not worry! This quiz is just for a matter of inspiration. You are a multifaceted human with so much potential so it totally makes sense if you do not feel completely certain. Feel free to take the quiz again or read about some role models for more inspiration.</p>
+    </div>
+
+    <div class="result" id="doc">
+      <h2>You have the qualities of a Doctor!</h2>
+      <img src="doctor.png"
+      alt= "Doctor Icon";
+      height="300";>
+      </img>
+      <h2>You are an empathetic and caring person. Your self drive does not only make you a better person but the world around you a better place. When given a task, you dedicated 100% of yourself because you understand the best work done with 100% of your heart.</h2>
+      <hr>
+      </hr>
+      <p>Do not feel like this career is the right fit? Do not worry! This quiz is just for a matter of inspiration. You are a multifaceted human with so much potential so it totally makes sense if you do not feel completely certain. Feel free to take the quiz again or read about some role models for more inspiration.</p>
+    </div>
+
+    <div class="result" id="proSpo">
+      <h2>You have the qualities of a Professional Athlete!</h2>
+      <img src="athleteIcon.png"
+      alt= "Athlete Icon";
+      height="250";>
+      </img>
+      <h2>You are a dedicated tenacious person with goals in mind. You understand the importance of time management between school, family, friends, and of course practice! You may constantly be busy but you always manage to squeeze in what matters most.</h2>
+      <hr>
+      </hr>
+      <p>Do not feel like this career is the right fit? Do not worry! This quiz is just for a matter of inspiration. You are a multifaceted human with so much potential so it totally makes sense if you do not feel completely certain. Feel free to take the quiz again or read about some role models for more inspiration.</p>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+
+</html>
